@@ -37,9 +37,7 @@ const strToArr = str => str.split('').map(Number);
 
 // Func Validate cards numbers
 const validateCred = elem => {
-	if (typeof elem === 'number') {
-		elem = strToArr(toString(elem));
-	}
+
 	if (typeof elem === 'string') {
 		elem = strToArr(elem);
 	}
@@ -96,9 +94,7 @@ const convertToValid = elem => {
 	if (typeof elem === 'object') {
 		elem = elem[0];
 	}
-	if (typeof elem === 'number') {
-		elem = strToArr(toString(elem));
-	}
+
 	if (typeof elem === 'string') {
 		elem = strToArr(elem);
 	}
@@ -124,6 +120,6 @@ console.log(idInvalidCardCompanies(findInvalidCards(strBatch)));
 console.log(convertToValid(findInvalidCards(strBatch)));
 console.log(convertToValid(strNum2));
 
-console.log(validateCred(strNum2));
+console.log(validateCred(strNum4));
 console.log(validateCred(invalid2));
 console.log(validateCred(valid3));
