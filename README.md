@@ -9,5 +9,3 @@ There is several opportunities:
 
 Tested with numbers from here https://www.freeformatter.com/credit-card-number-generator-validator.html
 Luhn algorithm https://en.wikipedia.org/wiki/Luhn_algorithm#Description
-
-Hello
